@@ -4,9 +4,9 @@ import logo from "../assets/LOGO_Keizen_Whatsapp.jpg";
 function Header() {
   return (
     <>
-        <Link to="/home">
-          <img src={logo} alt="logo" width='100px'/>
-        </Link>
+      <Link to="/home">
+        <img src={logo} alt="logo" width='100px' />
+      </Link>
 
       <div>
         <Link to="/about">Quem somos</Link>
