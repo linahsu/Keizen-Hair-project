@@ -12,8 +12,7 @@
 
 .text-container {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    padding: 20px;
-    padding-top: 50px;
+    padding: 3%;
     background-color: rgb(52, 40, 23);
     border-bottom-left-radius: 35%;
 }
@@ -30,4 +29,54 @@
     color: aquamarine;
     font-weight: 800;
     font-size: 25px;
+}
+
+.map img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.map-container {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.map {
+    flex-grow: 0;
+    margin-right: 10px;
+}
+
+.map-text {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.map-text h2 {
+    margin-bottom: 10px;
+}
+
+.metro-highlight {
+    font-weight: bold;
+    color: #ff6347;
+    /* Destaque no texto */
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        flex-direction: column;
+        /* Coloca o mapa e o texto um embaixo do outro */
+        text-align: center;
+        /* Centraliza o texto */
+    }
+
+    .map-text {
+        padding-left: 0;
+        /* Remove o espaçamento lateral em telas pequenas */
+        margin-top: 20px;
+        /* Espaço entre o mapa e o texto */
+    }
 }
