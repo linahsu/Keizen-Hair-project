@@ -1,0 +1,32 @@
+.header-container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+}
+.logo img {
+    border-radius: 50%;
+}
+
+.logo img:hover {
+    filter: drop-shadow(0 0 1em whitesmoke);
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.link:hover {
+    color: aquamarine;
+    transform: scale(1.1);
+}
