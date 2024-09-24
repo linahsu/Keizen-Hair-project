@@ -16,7 +16,7 @@ function Footer() {
         <p>Whatsapp: (11) 97814-9428</p>
       </div>
 
-      <p>&copy; 2024 Lina Hsu. Todos os direitos reservados.</p>
+      <p className='copyright'>&copy; 2024 Lina Hsu. Todos os direitos reservados.</p>
     </footer>
   );
 }

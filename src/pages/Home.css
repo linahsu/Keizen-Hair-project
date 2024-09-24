@@ -1,0 +1,33 @@
+.home-container {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    display: flex;
+    border-bottom-left-radius: 35%;
+    border-top-right-radius: 35%;
+}
+
+.home-container img {
+    border-top-right-radius: 35%;
+}
+
+.text-container {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    padding: 20px;
+    padding-top: 50px;
+    background-color: rgb(52, 40, 23);
+    border-bottom-left-radius: 35%;
+}
+
+.text-container h1 {
+    color: aquamarine;
+}
+
+.text-container h2 {
+    font-size: 20px;
+}
+
+.highlight {
+    color: aquamarine;
+    font-weight: 800;
+    font-size: 25px;
+}
