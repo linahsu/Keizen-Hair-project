@@ -1,20 +1,23 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import './App.css'
-import Home from './pages/home'
-import About from './pages/about'
-import Staff from './pages/staff'
-import Services from './pages/services'
+import Header from './components/Header'
+import Home from './pages/Home'
+import About from './pages/About'
+import Staff from './pages/Staff'
+import Services from './pages/Services'
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route path='/home' element={<Home/>} />
-        <Route path='/about' element={<About/>}/>
-        <Route path='/staff' element={<Staff/>}/>
-        <Route path='/services' element={<Services/>}/>
-        <Route path='' element={<Navigate to='/home'/>} />
+        <Route path='/' element={ <Header /> }>
+          <Route path='/home' element={ <Home /> } />
+          <Route path='/about' element={ <About /> }/>
+          <Route path='/staff' element={ <Staff /> }/>
+          <Route path='/services' element={ <Services /> }/>
+          <Route path='' element={ <Navigate to='/home'/> } />
+        </Route>
       </Routes>
     </>
   )
