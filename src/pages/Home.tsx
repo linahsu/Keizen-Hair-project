@@ -1,6 +1,7 @@
 import salaDeCorte from '../assets/sala-de-corte.jpg';
 import mapa from '../assets/mapa.jpg';
 import Footer from '../components/Footer';
+import Carroulsel from '../components/Carroulsel';
 import './Home.css';
 
 function Home() {
@@ -17,6 +18,8 @@ function Home() {
         </div>
         <img src={salaDeCorte} alt='Sala de corte' width='50%' />
       </div>
+
+      <Carroulsel />
 
       <div className="map-container">
         <a

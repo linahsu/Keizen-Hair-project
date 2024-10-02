@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import logo from "../assets/LOGO_Keizen_Whatsapp.jpg";
+import logo from "../assets/logos/LOGO_Keizen_Whatsapp.jpg";
 import './Header.css';
 
 function Header() {
