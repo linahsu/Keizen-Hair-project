@@ -14,8 +14,8 @@ function Staff() {
     'Edson Gondo',
     'Ayla Shizue',
     'Vitória Secílio',
-    'Aline Sato',
-    'Eduardo Miamura',
+    'Aline Inoue',
+    'Eduardo Gialdi',
     'Karina Kael'];
   
   const staffInfo: {[key: string]: {[key: string]: string}} = {
@@ -24,8 +24,8 @@ function Staff() {
     'Edson Gondo': {photo: edsonPhoto, role: 'Cabeleireiro'},
     'Ayla Shizue': {photo: aylaPhoto, role: 'Cabeleireiro'},
     'Vitória Secílio': {photo: vitoriaPhoto, role: 'Cabeleireiro'},
-    'Aline Sato': {photo: alinePhoto, role: 'Auxiliar de Cabeleireiro'},
-    'Eduardo Miamura': {photo: eduardoPhoto, role: 'Auxiliar de Cabeleireiro'},
+    'Aline Inoue': {photo: alinePhoto, role: 'Auxiliar de Cabeleireiro'},
+    'Eduardo Gialdi': {photo: eduardoPhoto, role: 'Auxiliar de Cabeleireiro'},
     'Karina Kael': {photo: karinaPhoto, role: 'Recepcionista'},
   }
 

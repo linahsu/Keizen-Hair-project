@@ -10,11 +10,15 @@ p {
     font-size: 14px;
 }
 
-.whatsapp-icon{
+.icon-container {
     display: flex;
     justify-content: right;
     margin-right: 5%;
     margin-bottom: 10px;
+}
+
+.whatsapp-icon {
+    margin-left: 10px;
 }
 
 .copyright {
