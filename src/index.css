@@ -27,7 +27,7 @@ a:hover {
 } */
 
 body {
-  background-color: black;
+  background-image: url('./assets/dark-black-wall-texture-background.jpg');
   margin: 0;
   display: flex;
   place-items: top;

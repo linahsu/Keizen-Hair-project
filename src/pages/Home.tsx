@@ -38,7 +38,7 @@ function Home() {
               h-auto
               absolute
               rounded-xl 
-              opacity-40
+              opacity-50
             "
             width="600"
             autoPlay loop muted
