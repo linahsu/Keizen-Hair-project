@@ -31,7 +31,7 @@ function Staff() {
 
   return (
     <>
-      <h1>Nossa Equipe</h1>
+      <h1 className='mt-10 text-gray-600 underline'>Nossa Equipe</h1>
       <p>
         Nosso espaço é acolhedor e nossa equipe está preparada para proporcionar uma experiência 
         única, combinando técnicas atuais com um atendimento cuidadoso, sempre respeitando o seu 
