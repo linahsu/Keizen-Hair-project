@@ -7,7 +7,7 @@ function Header() {
     <>
       <div className="flex mb-6">
         <Link to="/home" className="flex">
-          <img className="w-32 rounded-full hover:drop-shadow-[0_0px_15px_whitesmoke] hover:w-36" src={logo} alt="logo" width='100px' />
+          <img className="w-32 rounded-full hover:drop-shadow-[0_0px_15px_whitesmoke]=" src={logo} alt="logo" width='100px' />
         </Link>
 
         <div className="w-full h-auto flex justify-around items-center">

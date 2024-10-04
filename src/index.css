@@ -12,3 +12,9 @@ body {
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
+
+@media (max-width: 640px) {
+  body {
+    flex-direction: column;
+  }
+}

@@ -9,7 +9,7 @@ function About() {
         <div className=''>
           <h1 className='mt-5 mb-10 text-aquamarine font-bold text-5xl font-caveat'>Nossa Missão e Visão</h1>
 
-          <p className='mr-5 font-caveat text-3xl'>
+          <p className='mr-10 text-xl'>
             No Keizen Hair, acreditamos que a beleza verdadeira está na simplicidade e na naturalidade.
             Somos um salão de beleza com um ambiente acolhedor, cuidadosamente decorado com elementos
             rústicos e muitas plantas, criando um espaço onde cada cliente se sente em casa.

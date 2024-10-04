@@ -21,14 +21,14 @@ function Home() {
             className="
               ml-14 mt-14
               absolute z-20
-              w-45/100
+              w-2/4
               font-caveat
               "
             >
-            <h1 className="font-extrabold text-5xl text-aquamarine" >Bem-vindos ao Keizen Hair!</h1>
-            <h2 className="mt-3 text-3xl" >
+            <h1 className="font-extrabold text-6xl text-aquamarine" >Bem-vindos ao Keizen Hair!</h1>
+            <h2 className="mt-3 text-4xl" >
               Cuidamos de você em um ambiente acolhedor, onde sua 
-              <span className="text-4xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
+              <span className="text-5xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
               técnicas que facilitam o seu dia a dia.
             </h2>
           </div>
