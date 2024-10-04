@@ -19,7 +19,7 @@ function Home() {
         >
           <div
             className="
-              ml-10 mt-10
+              ml-14 mt-14
               absolute z-20
               w-45/100
               font-caveat
@@ -38,7 +38,7 @@ function Home() {
               h-auto
               absolute
               rounded-xl 
-              opacity-50
+              opacity-60
             "
             width="600"
             autoPlay loop muted
