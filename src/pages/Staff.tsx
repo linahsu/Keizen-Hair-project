@@ -31,19 +31,39 @@ function Staff() {
 
   return (
     <>
-      <h1 className='mt-10 text-gray-600 underline'>Nossa Equipe</h1>
-      <p>
+      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-5xl font-caveat'>Nossa Equipe</h1>
+      <p className='mb-10 text-center font-caveat text-3xl' >
         Nosso espaço é acolhedor e nossa equipe está preparada para proporcionar uma experiência 
         única, combinando técnicas atuais com um atendimento cuidadoso, sempre respeitando o seu 
         tempo e as suas preferências.
       </p>
 
-      <div>
+      <div className='flex-wrap flex row justify-evenly'>
         {staffNames.map((name) => (
-          <div key={name}>
-            <img src={staffInfo[name]['photo']} alt={name} width="150"/>
-            <h2>{name}</h2>
-            <p>{staffInfo[name]['role']}</p>
+          <div
+            key={name}
+            className='
+              w-80
+              m-4
+              flex-wrap
+              bg-black
+              border-2 border-aquamarine
+              rounded-2xl
+              pt-6
+            '
+          >
+            <img
+              className='
+                mx-auto mt-2
+                rounded-full
+                h-60 w-60
+                object-cover
+              '
+              src={staffInfo[name]['photo']}
+              alt={name}
+            />
+            <h2 className='mt-3 text-center text-aquamarine font-bold text-3xl font-caveat'>{name}</h2>
+            <p className='text-center font-caveat text-2xl'>{staffInfo[name]['role']}</p>
             <br/>
           </div>
         ))}
