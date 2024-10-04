@@ -25,7 +25,7 @@ function Home() {
               font-caveat
               "
             >
-            <h1 className="font-extrabold text-5xl text-aquamarine" >Bem-vindo ao Studio Keizen!</h1>
+            <h1 className="font-extrabold text-5xl text-aquamarine" >Bem-vindos ao Keizen Hair!</h1>
             <h2 className="mt-3 text-3xl" >
               Cuidamos de você em um ambiente acolhedor, onde sua 
               <span className="text-4xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
