@@ -5,6 +5,7 @@
 body {
   background-image: url('./assets/dark-black-wall-texture-background.jpg');
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: top;
   min-width: 320px;
