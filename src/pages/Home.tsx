@@ -7,7 +7,7 @@ import Carroulsel from '../components/Carroulsel';
 function Home() {
   return (
     <>
-      <div className="w-80/100 m-0 mx-auto">
+      <div className="w-80/100 m-0 mx-auto relative">
       
         <div
           className="
