@@ -2,11 +2,18 @@ import Footer from "../components/Footer";
 
 function Services() {
   return (
-    <div>
-      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-5xl font-caveat'>Nossos Serviços</h1>
+    <div className="mt-[22%] md:mt-0">
+      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-6xl md:text-5xl font-caveat'>Nossos Serviços</h1>
       
-      <div className="mb-10 flex items-center">
-        <p className='text-xl w-2/4 mr-10'>
+      <div className="mb-10 flex flex-col md:flex-row items-center">
+        <p className='
+          text-2xl md:text-xl
+          text-center md:text-start
+          w-[95%] md:w-2/4
+          mb-10 md:mb-0
+          md:mr-10
+          '
+        >
           No nosso salão, acreditamos que a verdadeira beleza está em realçar o que você tem de mais 
           natural, proporcionando um cuidado que valoriza sua individualidade. Oferecemos uma ampla 
           gama de serviços pensados para facilitar sua rotina, sem abrir mão do seu bem-estar e da sofisticação.
@@ -17,7 +24,15 @@ function Services() {
           que você se sinta confiante e radiante todos os dias.
         </p>
 
-        <ul className='text-xl w-2/4 border-2 border-aquamarine py-12 px-10 rounded-2xl bg-black'>
+        <ul className='
+          text-2xl md:text-xl 
+          w-[95%] md:w-2/4
+          border-2 border-aquamarine 
+          rounded-2xl
+          py-12 px-10 
+          bg-black
+          '
+        >
           <li>✂️ Corte Masculino</li>
           <li>✂️ Corte Feminino</li>
           <li>✂️ Corte Infantil</li>
