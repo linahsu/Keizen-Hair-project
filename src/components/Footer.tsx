@@ -7,8 +7,16 @@ function Footer() {
   const instagramLink = 'https://www.instagram.com/keizenhair?igsh=MzNsdDdmaTg5ZjEy';
 
   return (
-    <footer>
-      <div className='flex justify-end mr-5/100 mb-3'>
+    <footer className="mt-10">
+      <div className='
+        fixed flex 
+        bottom-0 md:top-0 right-0
+        justify-end 
+        mr-[2%] md:mr-[13%]
+        md: mt-[12%]
+        mb-3
+        '
+      >
         <a className='mr-3' href={instagramLink} target="_blank">
           <img src={instragramIcon} alt='Instagram Icon' width="65"/>
         </a>
@@ -17,13 +25,23 @@ function Footer() {
         </a>
       </div>
 
-      <div className='flex justify-around items-center text-black bg-whitesmoke p-0.5'>
+      <div className='
+        flex flex-col md:flex-row 
+        md:justify-around 
+        items-center 
+        text-center
+        text-[20px] md:text-[17px]
+        text-black 
+        bg-whitesmoke
+        p-5 md:p-0.5
+        '
+      >
         <p>Rua Afonso Celso, 1679 - Vila Mariana</p>
         <p>Telefone: (11) 5572-4625</p>
         <p>Whatsapp: (11) 97814-9428</p>
       </div>
 
-      <p className='flex justify-center mt-3 mb-3 text-xs'>&copy; 2024 Lina Hsu. Todos os direitos reservados.</p>
+      <p className='flex justify-center mt-3 mb-24 md:mb-3 text-xs'>&copy; 2024 Lina Hsu. Todos os direitos reservados.</p>
     </footer>
   );
 }
