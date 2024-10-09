@@ -56,6 +56,7 @@ function Header() {
             flex flex-col items-start justify-center 
             "
           >
+            <Link onClick={toggleMenu} className="hover:font-bold m-5" to="/">Home</Link>
             <Link onClick={toggleMenu} className="hover:font-bold m-5" to="/about">Quem somos</Link>
             <Link onClick={toggleMenu} className="hover:font-bold m-5" to="/staff">Nossa Equipe</Link>
             <Link onClick={toggleMenu} className="hover:font-bold m-5" to="/services">Nossos Serviços</Link>
