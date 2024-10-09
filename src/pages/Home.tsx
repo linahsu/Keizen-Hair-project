@@ -11,7 +11,7 @@ function Home() {
       
         <div
           className="
-            m-0 mx-auto md:mt-10 mb-[50px] md:mb-[900px]
+            m-0 mx-auto md:mt-10 mb-[50px] md:mb-[67%]
             md:rounded-3xl 
             relative 
             flex

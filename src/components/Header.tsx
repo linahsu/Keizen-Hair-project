@@ -37,7 +37,7 @@ function Header() {
           </div>
 
           <div className="md:hidden justify-items-end flex items-center">
-            <button onClick={toggleMenu} className="pb-1 pt-2 px-3 mx-auto rounded-xl text-black text-3xl bg-whitesmoke hover:bg-aquamarine">
+            <button onClick={toggleMenu} className="pb-1 pt-2 px-3 mx-auto rounded-xl text-black text-4xl bg-whitesmoke hover:bg-aquamarine">
               {isOPen ? "X" : "☰"}
             </button>
           </div>
@@ -52,12 +52,13 @@ function Header() {
             rounded-xl
             bg-whitesmoke 
             text-black 
+            text-4xl
             flex flex-col items-start justify-center 
             "
           >
-            <Link className="hover:font-bold" to="/about">Quem somos</Link>
-            <Link className="hover:font-bold" to="/staff">Nossa Equipe</Link>
-            <Link className="hover:font-bold" to="/services">Nossos Serviços</Link>
+            <Link className="hover:font-bold m-5" to="/about">Quem somos</Link>
+            <Link className="hover:font-bold m-5" to="/staff">Nossa Equipe</Link>
+            <Link className="hover:font-bold m-5" to="/services">Nossos Serviços</Link>
           </div>
         )}
       </div>
