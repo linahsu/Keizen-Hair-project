@@ -4,12 +4,16 @@ import Footer from '../components/Footer';
 function About() {
   return (
     <div>
-      <div className='mb-10 flex items-center'>
+      <div className='mb-10 flex flex-col md:flex-row items-center'>
 
-        <div className=''>
+        <div className='
+          mt-[20%] md:mt-0 
+          text-center md:text-start
+          '
+        >
           <h1 className='mt-5 mb-10 text-aquamarine font-bold text-5xl font-caveat'>Nossa Missão e Visão</h1>
 
-          <p className='mr-10 text-xl'>
+          <p className='m-10 md:m-0 md:mr-10 text-xl'>
             No Keizen Hair, acreditamos que a beleza verdadeira está na simplicidade e na naturalidade.
             Somos um salão de beleza com um ambiente acolhedor, cuidadosamente decorado com elementos
             rústicos e muitas plantas, criando um espaço onde cada cliente se sente em casa.
@@ -26,7 +30,7 @@ function About() {
         </div>
 
         <img
-          className='w-[600px] h-[800px] object-cover rounded-2xl'
+          className='w-[600px] h-[800px] object-cover md:rounded-2xl'
           src={entrance}
           alt='Entrada Keizen com a nossa querida Missô'
         />
