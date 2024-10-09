@@ -15,13 +15,14 @@ function Header() {
       <div className="flex justify-end">
         <div className="
           absolute md:relative z-30 
-          w-[90%]
+          m-6 md:m-0
+          w-[90%] md:w-full
           flex justify-between
           mb-6 
           "
         >
           <Link to="/home" className="flex">
-            <img className="w-32 rounded-full hover:drop-shadow-[0_0px_15px_whitesmoke]" src={logo} alt="logo" width='100px' />
+            <img className=" w-20 md:w-32 rounded-full hover:drop-shadow-[0_0px_15px_whitesmoke]" src={logo} alt="logo" width='100px' />
           </Link>
 
           <div className="
@@ -46,7 +47,7 @@ function Header() {
           <div className="
             md:hidden
             absolute md:relative z-30 
-            mx-auto mt-[100px]
+            m-6 mt-[120px]
             p-3
             rounded-xl
             bg-whitesmoke 
