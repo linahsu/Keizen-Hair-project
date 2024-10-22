@@ -1,4 +1,4 @@
-import video from '../assets/video-corte-2.mp4';
+import video from '../assets/site.mp4';
 import mapa from '../assets/mapa.jpg';
 import Footer from '../components/Footer';
 import Carroulsel from '../components/Carroulsel';
@@ -10,7 +10,7 @@ function Home() {
       
         <div
           className="
-            m-0 mx-auto md:mt-10 mb-[50px] md:mb-[67%]
+            m-0 mx-auto md:mt-10 mb-[50px] md:mb-[59%]
             md:rounded-3xl 
             relative 
             flex
@@ -34,7 +34,7 @@ function Home() {
           </div>
 
           <div className="md:hidden z-20 font-caveat text-center">
-            <h1 className="font-extrabold text-6xl text-aquamarine w-[60%] mx-auto mt-[25%]" >Bem-vindos ao Keizen Hair!</h1>
+            <h1 className="font-extrabold text-5xl text-aquamarine w-[70%] mx-auto mt-[20%]" >Bem-vindos ao Keizen Hair!</h1>
             <h2 className="font-caveat text-4xl mx-auto w-[90%] mt-[25%]" >
                 Cuidamos de você em um ambiente acolhedor, onde sua 
                 <span className="text-5xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
