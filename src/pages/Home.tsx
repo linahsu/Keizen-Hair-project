@@ -18,7 +18,7 @@ function Home() {
         >
           <div
             className="
-              hidden md:block
+              hidden md:!block
               ml-20 mt-20
               absolute z-20
               w-2/4

@@ -25,7 +25,7 @@ function Header() {
           </Link>
 
           <div className="
-            hidden md:flex 
+            hidden md:!flex 
             w-full h-auto 
             justify-around items-center
             "
