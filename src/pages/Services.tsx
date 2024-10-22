@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 
 function Services() {
   return (
-    <div className="mt-[22%] md:mt-0">
+    <div className="mt-[25%] md:mt-0">
       <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-5xl font-caveat'>Nossos Serviços</h1>
       
       <div className="mb-10 flex flex-col md:flex-row items-center">
