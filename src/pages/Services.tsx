@@ -3,11 +3,11 @@ import Footer from "../components/Footer";
 function Services() {
   return (
     <div className="mt-[22%] md:mt-0">
-      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-6xl md:text-5xl font-caveat'>Nossos Serviços</h1>
+      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-5xl font-caveat'>Nossos Serviços</h1>
       
       <div className="mb-10 flex flex-col md:flex-row items-center">
         <p className='
-          text-2xl md:text-xl
+          text-xl
           text-center md:text-start
           w-[95%] md:w-2/4
           mb-10 md:mb-0
@@ -25,7 +25,7 @@ function Services() {
         </p>
 
         <ul className='
-          text-2xl md:text-xl 
+          text-xl
           w-[95%] md:w-2/4
           border-2 border-aquamarine 
           rounded-2xl

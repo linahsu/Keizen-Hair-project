@@ -29,7 +29,7 @@ function Footer() {
         md:justify-around 
         items-center 
         text-center
-        text-[20px] md:text-[17px]
+        text-[18px] md:text-[17px]
         text-black 
         bg-whitesmoke
         p-5 md:p-0.5

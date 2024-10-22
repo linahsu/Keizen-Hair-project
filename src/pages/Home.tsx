@@ -37,7 +37,7 @@ function Home() {
             <h1 className="font-extrabold text-4xl text-aquamarine w-[60%] mx-auto mt-[20%]" >Bem-vindos ao Keizen Hair!</h1>
             <h2 className="font-caveat text-3xl mx-auto w-[90%] mt-[25%]" >
                 Cuidamos de você em um ambiente acolhedor, onde sua 
-                <span className="text-5xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
+                <span className="text-4xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
                 técnicas que facilitam o seu dia a dia.
             </h2>
           </div>
@@ -68,7 +68,7 @@ function Home() {
             </a>
             <div className='mx-auto md:mx-10 w-[90%] md:w-144 text-center md:text-start'>
               <h2 className="mb-6 md:mb-2 text-3xl md:text-lg font-bold text-[#ff6347] underline">Aonde estamos?</h2>
-              <p>
+              <p className='text-[18px]'>
                 Estamos na rua Afonso Celso, 1679, Vila Mariana. 
                 A 700m do <span className='font-bold text-[#ff6347]'>metro Praça da Árvore</span>, 
                 leva cerca de 10 minutinhos a pé. Caso esteja de carro, a rua é tranquila 

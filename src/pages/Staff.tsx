@@ -32,8 +32,8 @@ function Staff() {
 
   return (
     <div className="mt-[22%] md:mt-0">
-      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-6xl md:text-5xl font-caveat'>Nossa Equipe</h1>
-      <p className='mx-5 md:mx-0 mb-10 text-center font-caveat text-4xl' >
+      <h1 className='mt-5 mb-10 text-center text-aquamarine font-bold text-5xl font-caveat'>Nossa Equipe</h1>
+      <p className='mx-5 md:mx-0 mb-10 text-center font-caveat text-3xl' >
         Nosso espaço é acolhedor e nossa equipe está preparada para proporcionar uma experiência 
         única, combinando técnicas atuais com um atendimento cuidadoso, sempre respeitando o seu 
         tempo e as suas preferências.

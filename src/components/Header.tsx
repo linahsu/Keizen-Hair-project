@@ -17,7 +17,7 @@ function Header() {
           m-6 md:m-0
           w-[90%] md:w-full
           flex justify-between
-          mb-6 
+          mb-6
           "
         >
           <Link to="/home" className="flex">
@@ -36,7 +36,7 @@ function Header() {
           </div>
 
           <div className="md:hidden justify-items-end flex items-center">
-            <button onClick={toggleMenu} className="pb-1 pt-2 px-3 mx-auto rounded-xl text-black text-4xl bg-whitesmoke hover:bg-aquamarine">
+            <button onClick={toggleMenu} className="pb-1 pt-2 px-3 mx-auto rounded-xl text-black text-3xl bg-whitesmoke hover:bg-aquamarine">
               {isOPen ? "X" : "☰"}
             </button>
           </div>
