@@ -34,8 +34,8 @@ function Home() {
           </div>
 
           <div className="md:hidden z-20 font-caveat text-center">
-            <h1 className="font-extrabold text-5xl text-aquamarine w-[70%] mx-auto mt-[20%]" >Bem-vindos ao Keizen Hair!</h1>
-            <h2 className="font-caveat text-4xl mx-auto w-[90%] mt-[25%]" >
+            <h1 className="font-extrabold text-4xl text-aquamarine w-[60%] mx-auto mt-[20%]" >Bem-vindos ao Keizen Hair!</h1>
+            <h2 className="font-caveat text-3xl mx-auto w-[90%] mt-[25%]" >
                 Cuidamos de você em um ambiente acolhedor, onde sua 
                 <span className="text-5xl text-aquamarine font-bold"> #beleza natural</span> é realçada com 
                 técnicas que facilitam o seu dia a dia.
