@@ -50,7 +50,7 @@ function Home() {
               md:rounded-xl 
               opacity-60
             "
-            autoPlay loop muted
+            autoPlay loop muted playsInline
           >
             <source src={video} type="video/mp4"/>
           </video>
