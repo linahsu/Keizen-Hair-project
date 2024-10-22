@@ -2,7 +2,6 @@ import video from '../assets/video-corte-2.mp4';
 import mapa from '../assets/mapa.jpg';
 import Footer from '../components/Footer';
 import Carroulsel from '../components/Carroulsel';
-// import './Home.css';
 
 function Home() {
   return (

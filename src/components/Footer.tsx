@@ -1,10 +1,9 @@
 import whatsappIcon from '../assets/64px-WhatsApp_icon.png';
 import instragramIcon from '../assets/—Pngtree—instagram logo icon_3588821.png'
-// import './Footer.css';
 
 function Footer() {
-  const whatsappLink = 'https://wa.me/5511978149428';
-  const instagramLink = 'https://www.instagram.com/keizenhair?igsh=MzNsdDdmaTg5ZjEy';
+  const whatsappLink:string = 'https://wa.me/5511978149428';
+  const instagramLink:string = 'https://www.instagram.com/keizenhair?igsh=MzNsdDdmaTg5ZjEy';
 
   return (
     <footer className="mt-10 z-50">

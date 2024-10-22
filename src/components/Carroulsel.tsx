@@ -6,7 +6,6 @@ import passagem from '../assets/home-images/passagem-1.jpeg';
 import recepcao1 from '../assets/home-images/recepção-1.jpeg';
 import recepcao2 from '../assets/home-images/recepção-2.jpg';
 import { useState, useEffect } from 'react';
-// import './Carroulsel.css';
 
 const homeImages: string[] = [entrada, lavatorio, salaDeCorte1, salaDeCorte2, passagem, recepcao1, recepcao2];
 
@@ -14,7 +13,7 @@ function Carroulsel({ images = homeImages, interval = 3500 }) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const goToNextSlide = () => {
+  const goToNextSlide = ():void => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 

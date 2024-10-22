@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import logo from "../assets/logos/LOGO_Keizen_Whatsapp.jpg";
-// import './Header.css';
 
 function Header() {
   const [isOPen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const toggleMenu = ():void => {
     setIsOpen(!isOPen);
   };
 
