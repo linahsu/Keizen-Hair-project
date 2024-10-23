@@ -3,7 +3,7 @@ import amandaPhoto from '../assets/staff/staff-amanda.jpeg';
 import edsonPhoto from '../assets/staff/staff-tar.jpeg';
 import aylaPhoto from '../assets/staff/staff-ayla.jpeg';
 import vitoriaPhoto from '../assets/staff/staff-vicky.jpeg';
-import alinePhoto from '../assets/staff/staff-aline.jpeg';
+import alynePhoto from '../assets/staff/staff-alyne.jpeg';
 import eduardoPhoto from '../assets/staff/staff-dudu.jpeg';
 import karinaPhoto from '../assets/staff/staff-karina.jpeg';
 import Footer from '../components/Footer';
@@ -15,7 +15,7 @@ function Staff() {
     'Edson Gondo',
     'Ayla Shizue',
     'Vitória Secílio',
-    'Aline Inoue',
+    'Alyne Inoue',
     'Eduardo Gialdi',
     'Karina Kael'];
   
@@ -25,7 +25,7 @@ function Staff() {
     'Edson Gondo': {photo: edsonPhoto, role: 'Cabeleireiro'},
     'Ayla Shizue': {photo: aylaPhoto, role: 'Cabeleireiro'},
     'Vitória Secílio': {photo: vitoriaPhoto, role: 'Cabeleireiro'},
-    'Aline Inoue': {photo: alinePhoto, role: 'Auxiliar de Cabeleireiro'},
+    'Alyne Inoue': {photo: alynePhoto, role: 'Auxiliar de Cabeleireiro'},
     'Eduardo Gialdi': {photo: eduardoPhoto, role: 'Auxiliar de Cabeleireiro'},
     'Karina Kael': {photo: karinaPhoto, role: 'Recepcionista'},
   }
