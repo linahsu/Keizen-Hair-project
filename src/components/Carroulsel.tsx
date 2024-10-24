@@ -23,7 +23,7 @@ function Carroulsel({ images = homeImages, interval = 3500 }) {
   }, [currentIndex, interval]);
 
   return (
-    <div className="relative w-[550px] md:w-[570px] h-[600px] md:h-[700px] flex justify-center items-center overflow-auto">
+    <div className="relative w-[550px] md:w-[570px] h-[600px] md:h-[700px] flex justify-center items-center overflow-auto max-w-full">
       {images.map((image, index) => (
         <img
           key={index}
